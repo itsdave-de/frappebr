@@ -58,6 +58,10 @@ A powerful Python CLI tool with a rich console interface for managing Frappe sit
 git clone <repository-url>
 cd frappebr
 
+# Create and activate a virtual environment (RECOMMENDED)
+python -m venv frappebr-env
+source frappebr-env/bin/activate  # On Windows: frappebr-env\Scripts\activate
+
 # Install in development mode
 pip install -e .
 
@@ -68,6 +72,10 @@ pip install -e .[dev]
 ### Option 2: Direct Installation
 
 ```bash
+# Create and activate a virtual environment (RECOMMENDED)
+python -m venv frappebr-env
+source frappebr-env/bin/activate  # On Windows: frappebr-env\Scripts\activate
+
 # Install directly from source
 pip install git+<repository-url>
 ```
@@ -75,6 +83,10 @@ pip install git+<repository-url>
 ### Option 3: Local Installation
 
 ```bash
+# Create and activate a virtual environment (RECOMMENDED)
+python -m venv frappebr-env
+source frappebr-env/bin/activate  # On Windows: frappebr-env\Scripts\activate
+
 # If you have the source code locally
 pip install .
 ```
